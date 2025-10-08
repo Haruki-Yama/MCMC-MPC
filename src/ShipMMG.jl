@@ -15,11 +15,14 @@ include("data.jl")
 export calc_position,
     ShipData,
     EnvironmentData,
-    PointPairCoords,
     get_KVLCC2_L7_basic_params,
     get_KVLCC2_L7_maneuvering_params,
     get_KVLCC2_L7_params,
+    get_KCS_basic_params,
+    get_KCS_maneuvering_params,
+    get_KCS_params,
     get_example_ship_wind_force_moment_params,
+    get_example_KCS_ship_wind_force_moment_params,
     nuts_sampling_single_thread,
     nuts_sampling_multi_threads
 

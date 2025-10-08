@@ -1085,23 +1085,23 @@ function create_model_for_mcmc_sample_mmg(
         dX[5] = dn_p = derivative(spl_n_p, t)
     end
 
-    R_0_dash_start = 0.022
-    X_vv_dash_start = -0.040
-    X_vr_dash_start = 0.002
-    X_rr_dash_start = 0.011
-    X_vvvv_dash_start = 0.771
-    Y_v_dash_start = -0.315
-    Y_r_dash_start = 0.083
-    Y_vvv_dash_start = -1.607
-    Y_vvr_dash_start = 0.379
-    Y_vrr_dash_start = -0.391
-    Y_rrr_dash_start = 0.008
-    N_v_dash_start = -0.137
-    N_r_dash_start = -0.049
-    N_vvv_dash_start = -0.030
-    N_vvr_dash_start = -0.294
-    N_vrr_dash_start = 0.055
-    N_rrr_dash_start = -0.013
+    R_0_dash_start = 0.0167
+    X_vv_dash_start = -0.0549
+    X_vr_dash_start = -0.0437
+    X_rr_dash_start = -0.0120
+    X_vvvv_dash_start = -0.0417
+    Y_v_dash_start = -0.2252
+    Y_r_dash_start = 0.0459
+    Y_vvv_dash_start = -1.7179
+    Y_vvr_dash_start = -0.4832
+    Y_vrr_dash_start = -0.8341
+    Y_rrr_dash_start = -0.0050
+    N_v_dash_start = -0.1111
+    N_r_dash_start = -0.0465
+    N_vvv_dash_start = -0.1752
+    N_vvr_dash_start = -0.6168
+    N_vrr_dash_start = -0.0512
+    N_rrr_dash_start = -0.0387
 
     p = (
         R_0_dash_start,
@@ -1373,23 +1373,23 @@ function create_model_for_mcmc_sample_mmg(
         dX[5] = dn_p = derivative(spl_n_p, t)
     end
 
-    R_0_dash_start = 0.022
-    X_vv_dash_start = -0.040
-    X_vr_dash_start = 0.002
-    X_rr_dash_start = 0.011
-    X_vvvv_dash_start = 0.771
-    Y_v_dash_start = -0.315
-    Y_r_dash_start = 0.083
-    Y_vvv_dash_start = -1.607
-    Y_vvr_dash_start = 0.379
-    Y_vrr_dash_start = -0.391
-    Y_rrr_dash_start = 0.008
-    N_v_dash_start = -0.137
-    N_r_dash_start = -0.049
-    N_vvv_dash_start = -0.030
-    N_vvr_dash_start = -0.294
-    N_vrr_dash_start = 0.055
-    N_rrr_dash_start = -0.013
+    R_0_dash_start = 0.0167
+    X_vv_dash_start = -0.0549
+    X_vr_dash_start = -0.0437
+    X_rr_dash_start = -0.0120
+    X_vvvv_dash_start = -0.0417
+    Y_v_dash_start = -0.2252
+    Y_r_dash_start = 0.0459
+    Y_vvv_dash_start = -1.7179
+    Y_vvr_dash_start = -0.4832
+    Y_vrr_dash_start = -0.8341
+    Y_rrr_dash_start = -0.0050
+    N_v_dash_start = -0.1111
+    N_r_dash_start = -0.0465
+    N_vvv_dash_start = -0.1752
+    N_vvr_dash_start = -0.6168
+    N_vrr_dash_start = -0.0512
+    N_rrr_dash_start = -0.0387
 
     p = (
         R_0_dash_start,
