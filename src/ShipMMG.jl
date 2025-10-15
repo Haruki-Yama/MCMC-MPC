@@ -8,6 +8,8 @@ using Distributions
 using Turing
 using ForwardDiff
 using LinearAlgebra
+using JuMP
+using Ipopt
 
 include("data.jl")
 export calc_position,
@@ -40,7 +42,9 @@ export Mmg3DofBasicParams,
     mmg_3dof_zigzag_test,
     estimate_mmg_approx_lsm,
     estimate_mmg_approx_lsm_time_window_sampling,
-    create_model_for_mcmc_sample_mmg
+    create_model_for_mcmc_sample_mmg,
+    mpc_for_maneuvering_variables,
+    mpc_for_external_force
 
 include("mmg_wind.jl")
 export Mmg3DofBasicParams,
