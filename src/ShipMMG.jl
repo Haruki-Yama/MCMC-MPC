@@ -4,6 +4,7 @@ using DifferentialEquations
 using ParameterizedFunctions
 using Dierckx
 using Parameters
+using Dierckx: derivative
 using Distributions
 using Turing
 using ForwardDiff
