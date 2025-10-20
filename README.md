@@ -30,3 +30,4 @@ If you want to use MCMC calculation package of this library, you should install 
 5. Create new Pull Request
 
 If you want to join this project as a researcher, please contact [me](https://github.com/taiga4112).
+# MCMC-MPC
